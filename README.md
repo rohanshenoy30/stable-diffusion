@@ -42,22 +42,6 @@ This is an educational implementation of **Stable Diffusion**, a latent text-to-
 
 ---
 
-## 📦 Requirements
-
-```bash
-pip install torch torchvision
-pip install transformers
-pip install pillow tqdm
-````
-
-Also install `pytorch_lightning` (required for `.ckpt` checkpoint loading):
-
-```bash
-pip install pytorch_lightning
-```
-
----
-
 ## 📝 Usage
 
 ### Run from notebook
@@ -106,9 +90,6 @@ strength = 0.8  # Lower = closer to input
 
 ---
 
-> ⚠️ Make sure the files `cat_output.png` and `dog_output.png` exist in the respective folders. Rename or adjust paths accordingly based on your actual file names.
-
----
 
 ## 📌 Notes
 
