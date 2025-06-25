@@ -1,7 +1,7 @@
 
 # Stable Diffusion from Scratch 🧠🎨
 
-This is an educational implementation of **Stable Diffusion**, a latent text-to-image diffusion model, built from scratch using PyTorch. It demonstrates the end-to-end process of converting text prompts into high-resolution images using a denoising diffusion probabilistic model (DDPM), a CLIP text encoder, and a VAE.
+This is an implementation of **Stable Diffusion**, a latent text-to-image diffusion and image-to-image transformation model, built from scratch using PyTorch. It demonstrates the end-to-end process of converting text prompts into high-resolution images using a denoising diffusion probabilistic model (DDPM), a CLIP text encoder, and a VAE.
 
 ---
 
