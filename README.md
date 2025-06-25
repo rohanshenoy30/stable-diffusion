@@ -111,9 +111,9 @@ Using the prompt:
 
 We transformed an input image of a dog into a new image aligned with the text description.
 
-| Input Image (`dog.jpg`) | Output Image (`cat output.jpg`) |
+| Input Image (`dog.jpg`) | Output Image (`cat output.png`) |
 |--------------------------|---------------------------------------------|
-| ![](./images/dog.jpg)    | ![](./output/output5.jpg) |
+| ![](./images/dog.jpg)    | ![](./output/output5.png) |
 
 - `strength = 0.9` → High transformation, less similarity to input image
 - The model retains some spatial structure but aligns the output to the prompt
