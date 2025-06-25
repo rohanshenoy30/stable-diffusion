@@ -123,7 +123,3 @@ Example images generated from prompts are stored here.
 
 **Rohan Shenoy** — [GitHub Profile](https://github.com/rohanshenoy30)
 
-```
-
-Let me know if you'd like badges (e.g., Python version, license) or deployment instructions (e.g., Gradio/Web UI) added!
-```
