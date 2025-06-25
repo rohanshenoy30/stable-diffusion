@@ -103,6 +103,21 @@ strength = 0.8  # Lower = closer to input
 </p>
 
 ---
+## 🐾 Image-to-Image Transformation Example
+
+Using the prompt:
+
+> **"A cat stretching on the floor, highly detailed, ultra sharp, cinematic, 100mm lens, 8k resolution."**
+
+We transformed an input image of a dog into a new image aligned with the text description.
+
+| Input Image (`dog.jpg`) | Output Image (`cat_stretching_output.jpg`) |
+|--------------------------|---------------------------------------------|
+| ![](./images/dog.jpg)    | ![](./output/output5.jpg) |
+
+- `strength = 0.9` → High transformation, less similarity to input image
+- The model retains some spatial structure but aligns the output to the prompt
+
 
 
 ## 📌 Notes
