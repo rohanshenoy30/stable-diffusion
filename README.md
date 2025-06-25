@@ -111,7 +111,7 @@ Using the prompt:
 
 We transformed an input image of a dog into a new image aligned with the text description.
 
-| Input Image (`dog.jpg`) | Output Image (`cat_stretching_output.jpg`) |
+| Input Image (`dog.jpg`) | Output Image (`cat output.jpg`) |
 |--------------------------|---------------------------------------------|
 | ![](./images/dog.jpg)    | ![](./output/output5.jpg) |
 
