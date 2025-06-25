@@ -93,9 +93,37 @@ strength = 0.8  # Lower = closer to input
 
 ## 📌 Notes
 
-* This project is for **learning and experimentation**.
-* Model weights and tokenizer files are expected in the `data/` folder.
-* The implementation is simplified but faithful to the core Stable Diffusion pipeline.
+To run this project, you need to manually download the pretrained model weights and tokenizer files. Save them in the `data/` directory as follows:
+
+### 🔡 Tokenizer Files
+Download the following two files from [Stable Diffusion v1.5 Tokenizer](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/tree/main/tokenizer):
+
+- `vocab.json`
+- `merges.txt`
+
+Place them in:
+
+```
+
+data/vocab.json
+data/merges.txt
+
+```
+
+### 🧠 Model Weights
+Download the following model checkpoint file from [Stable Diffusion v1.5](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/tree/main):
+
+- `v1-5-pruned-emaonly.ckpt`
+
+Place it in:
+
+```
+
+data/v1-5-pruned-emaonly.ckpt
+
+```
+
+These files are essential for running the text encoder and the diffusion model in the pipeline.
 
 ---
 
