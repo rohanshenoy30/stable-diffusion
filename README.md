@@ -39,10 +39,6 @@ This is an educational implementation of **Stable Diffusion**, a latent text-to-
 
 - **Text-to-Image** generation using diffusion
 - **Image-to-Image** transformation with noise control
-- Uses **DDPM sampler**
-- Classifier-Free Guidance support (CFG)
-- Seed control for reproducibility
-- CPU / CUDA / MPS support
 
 ---
 
@@ -97,7 +93,7 @@ strength = 0.8  # Lower = closer to input
 ### Prompt: `"A cat stretching on the floor, ultra sharp, 8k resolution"`
 
 <p align="center">
-  <img src="output/output/cat_output.png" alt="Cat stretching output" width="400"/>
+  <img src="output/output.png" alt="Cat stretching output" width="400"/>
 </p>
 
 ---
@@ -105,7 +101,7 @@ strength = 0.8  # Lower = closer to input
 ### Prompt: `"A dog with sunglasses, wearing comfy hat, looking at camera, highly detailed, 8k"`
 
 <p align="center">
-  <img src="output/output2/dog_output.png" alt="Dog with sunglasses output" width="400"/>
+  <img src="output/output2.png" alt="Dog with sunglasses output" width="400"/>
 </p>
 
 ---
