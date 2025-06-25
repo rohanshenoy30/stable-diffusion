@@ -89,6 +89,13 @@ strength = 0.8  # Lower = closer to input
 </p>
 
 ---
+### Prompt: `"An athlete pkaying football, looking at camera, highly detailed, 8k"`
+
+<p align="center">
+  <img src="output/output3.png" alt="Athlete playing football" width="400"/>
+</p>
+
+---
 
 
 ## 📌 Notes
