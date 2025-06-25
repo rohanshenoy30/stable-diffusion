@@ -21,11 +21,11 @@ This is an educational implementation of **Stable Diffusion**, a latent text-to-
 ├── pipeline.py           # Main generation pipeline
 ├── demo.ipynb            # Jupyter notebook demo to run text-to-image generation
 ├── data/
-│   ├── vocab.json        # Vocabulary for tokenizer
-│   ├── merges.txt        # Merge rules for BPE tokenizer
-│   └── v1-5-pruned-emaonly.ckpt  # Pretrained Stable Diffusion checkpoint
+│   ├── vocab.json
+│   ├── merges.txt
+│   └── v1-5-pruned-emaonly.ckpt
 ├── images/
-│   └── dog.jpg           # Sample input image for image-to-image generation
+│   └── dog.jpg           # Sample input image
 ├── output/
 │   ├── output/           # Folder containing generated output images
 │   └── output2/
@@ -94,12 +94,23 @@ strength = 0.8  # Lower = closer to input
 
 ## 🖼 Sample Outputs
 
-Outputs are saved in:
+### Prompt: `"A cat stretching on the floor, ultra sharp, 8k resolution"`
 
-* `output/output/`
-* `output/output2/`
+<p align="center">
+  <img src="output/output/cat_output.png" alt="Cat stretching output" width="400"/>
+</p>
 
-Example images generated from prompts are stored here.
+---
+
+### Prompt: `"A dog with sunglasses, wearing comfy hat, looking at camera, highly detailed, 8k"`
+
+<p align="center">
+  <img src="output/output2/dog_output.png" alt="Dog with sunglasses output" width="400"/>
+</p>
+
+---
+
+> ⚠️ Make sure the files `cat_output.png` and `dog_output.png` exist in the respective folders. Rename or adjust paths accordingly based on your actual file names.
 
 ---
 
@@ -122,4 +133,5 @@ Example images generated from prompts are stored here.
 ## 👤 Author
 
 **Rohan Shenoy** — [GitHub Profile](https://github.com/rohanshenoy30)
+
 
