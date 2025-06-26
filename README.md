@@ -145,8 +145,8 @@ We transformed an input image of a dog into a new image aligned with the text de
 |--------------------------|---------------------------------------------|
 | ![](./images/mira.jpg)    | ![](./output/output7.png) |
 
-- `strength = 0.9` → High transformation, less similarity to input image
-- The model retains some spatial structure but aligns the output to the prompt
+- `strength = 0.4` → lower transformation, more similarity to input image
+- The model retains aligns the output to the image
 
 
 
